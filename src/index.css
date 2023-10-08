@@ -1,0 +1,42 @@
+::root {
+  --main-c: #f7500c;
+  --body-c: #453939;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Vazir";
+  src: url("/Fonts/Vazir.ttf");
+}
+
+@font-face {
+  font-family: "Nasr";
+  src: url("Fonts/Nasr.ttf");
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Vazir", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  color: var(--body-c);
+  background-color: #f0eaea;
+}
+body,
+html {
+  height: 100%;
+}
+button {
+  font-family: "Vazir", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+}
+footer {
+  text-align: center;
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

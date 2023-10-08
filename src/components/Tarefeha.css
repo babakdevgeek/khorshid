@@ -1,0 +1,16 @@
+.tarefe-table {
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.tarefe-table th,
+.tarefe-table td {
+  border: 2px solid orange;
+  padding: 1rem 2rem;
+  transition: 0.5s ease all;
+}
+
+.tarefe-table td:hover {
+  background-color: orange;
+  color: #fff;
+}
